@@ -1013,6 +1013,11 @@ img {
   transform: translateY(-.5rem);
 }
 
+/* Show scroll up */
+.show-scroll{
+  bottom: 3rem;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
