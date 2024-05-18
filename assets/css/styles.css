@@ -448,7 +448,6 @@ body.dark-theme{
 }
 
 .home__social{
-  height: -webkit-max-content;
   position: absolute;
   left: -3rem;
   top: 0;
@@ -456,6 +455,8 @@ body.dark-theme{
   margin: auto 0;
   display: grid;
   row-gap: 1rem;
+  align-content: center; /* center the content within the grid */
+  height: auto; /* allow height to adapt based on content */
 }
 
 .home__social-link{
