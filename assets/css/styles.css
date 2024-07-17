@@ -681,9 +681,25 @@ body.dark-theme{
   transition: background-color .4s;
 }
 
+.projects__card{
+  display: flex;
+  flex-direction: column;
+}
+
 .projects__image{
+  align-self: center;
+}
+
+.projects__image {
+  display: flex;
   position: relative;
   margin-bottom: .75rem;
+  width: 318px;
+  justify-content: center;
+}
+
+.chess{
+  height: 258px;
 }
 
 .projects__button{
@@ -1052,6 +1068,7 @@ body.dark-theme{
   .contact__data .section__title-2{
     transform: translateX(0);
   }
+
 }
 
 /* For medium devices */
